@@ -1,0 +1,94 @@
+body{
+    max-width: 790px;
+}
+.elso header{
+    background-color:yellow;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 36px;
+
+}
+.elso header a{
+    margin:22px 10px 30px 10px;
+}
+
+.elso div {
+    background-color: aqua;
+    display:grid;
+    grid-template-columns: 256px 1fr;
+    font-size: 36px;
+    padding:50px 30px 10px 30px; 
+}
+
+/*kockak1*/
+/*.kockak1{
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    
+}*/
+
+.kockak1 div{
+background-color: greenyellow;
+margin:20px;
+font-weight: bold;
+height: 150px;
+width:150px;
+}
+.kockak1 p{
+    margin:10px;
+}
+
+.kockak1 {
+    display:flex;
+    flex-wrap: wrap;
+    width:800px;
+}
+
+
+/*Centerme sárga*/
+
+.centerme {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.centerme .item{
+    height:180px;
+    width:180px;
+    background-color: grey;
+    border: 10px solid yellow;
+    color: yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item p{
+    margin:10px;
+    font-weight:bold;
+     font-size:36px;
+}
+
+/* kockák4*/
+.kockak3  {
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+}
+.kockak3 div{
+    background-color: greenyellow;
+    padding:20px;
+    margin:10px;    
+}
+
+.kockak3 .last{
+    grid-column: 2/span 2; 
+}
+
+.kockak3 .forth{
+    grid-column: 4;
+    grid-row: 1/span 2;
+}
